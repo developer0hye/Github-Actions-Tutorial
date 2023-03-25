@@ -29,6 +29,7 @@ jobs:
           docker version
           docker info
           docker images --all
+          docker system df
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
