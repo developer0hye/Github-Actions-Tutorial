@@ -28,6 +28,7 @@ jobs:
           python --version
           docker version
           docker info
+          docker images --all
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
